@@ -1,0 +1,107 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.instagram-post {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-header, .post-actions, .post-likes, .post-caption, .post-comments, .post-time {
+  padding: 5px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+  padding-left: 10px; 
+  padding-right: 10px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info {
+  flex-grow: 1;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.location {
+  color: #8e8e8e;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.post-image img {
+  width: 100%;
+  display: block;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.post-actions i {
+  margin-right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.post-likes, .post-caption, .post-comments, .post-time {
+  font-size: 14px;
+  padding-left: 10px; 
+  padding-right: 10px;
+}
+
+.post-likes strong, .post-caption strong, .post-comments strong {
+  font-weight: bold;
+}
+
+.post-likes {
+  margin-top: 5px;
+}
+
+.post-caption {
+  margin-top: 5px;
+}
+
+.post-comments {
+  margin-top: 5px;
+  color: #8e8e8e;
+}
+
+.post-time {
+  margin-top: 5px;
+  color: #8e8e8e;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.post-likes p, .post-caption p, .post-comments p {
+  margin: 0;
+  display: inline;
+}
